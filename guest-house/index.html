@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo_guest_house</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style>
+footer{
+  background-color: rgba(255, 255, 0, 0.456);
+}
+</style>
+
+<body>
+  <div class="container-fluid align-items-center justify-content-center bg-danger">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-warning">
+      <div class="container-fluid bg-warning">
+        <a class="navbar-brand" href="#"><img src="./img/svg/path.svg" alt="Guest House icon" height="50"> Patliputra
+          Guest House</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Your Booking</a></li>
+                <li><a class="dropdown-item" href="#">Book now</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Your Account</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Postcode" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Check</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/room-two1.jpg" class="d-block w-100 img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/room-two2.jpg" class="d-block w-100 img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/room-two3.jpg" class="d-block w-100 img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/room-two4.jpg" class="d-block w-100 img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/others-room2.jpg" class="d-block w-100 img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/others-room1.jpg" class="d-block w-100 img-fluid" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container-fluid col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./img/room-two1.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Stay with us in confort</h1>
+        <p class="lead">Whether you're visiting for business, leisure, or a special event, Hotel Guest House Inn is here
+          to make your stay as enjoyable as possible. Experience the warmth of a true home away from home, where every
+          detail is designed to meet your needs and exceed your expectations.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Booking</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Your Home Away From Home</h1>
+        <p class="lead">Book your stay with us today and discover why Patliputra Guest House is the preferred choice for
+          travelers seeking comfort, convenience, and culinary delights in <a
+            href="https://goo.gl/maps/ffHJbFVyvrZwjXiw6">Patliputra Colony, Bihar, Patna-800013</a>. Your satisfaction
+          is our commitment, and we can't wait to welcome you!</p>
+        <div class="d-grid d-md-flex justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact us</button>
+        </div>
+      </div>
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./img/outside-view2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="40" height="10"><img src="./img/svg/path(1).svg" alt=""></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Patliputra Guest House .Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><img
+              src="./img/svg/twitter.svg" alt="twitter logo"></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><img
+              src="./img/svg/instagram2.svg" alt="instagram logo"></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><img
+              src="./img/svg/facebook.svg" alt="facebook logo"></svg></a></li>
+    </ul>
+  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</html>
